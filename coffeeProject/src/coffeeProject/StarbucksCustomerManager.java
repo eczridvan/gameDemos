@@ -10,7 +10,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 	
 	public void save(Customer customer) {
 		if (customerCheckService.checkService(customer)) {
-			System.out.println("Müþteri eklendi");
+			System.out.println("Müþteri eklendix");
 		} else {
 			System.out.println("Not a valid person.");
 		}
